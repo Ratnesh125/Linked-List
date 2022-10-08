@@ -16,8 +16,8 @@ int main()
     
     int arr[]={2,4,5,68,5};
     int * ptr2 ;
-    ptr2=arr;
-    //or ptr2 =&arr[0];
+    ptr2=arr;           //In array we can't write "&arr" only "arr" that's rule
+    //or ptr2 =&arr[0]; //This is another way 
     cout<<ptr2<<endl;
     cout<<*ptr2;
     
